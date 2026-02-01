@@ -3,6 +3,14 @@ Assignment 6: Build App  “ AI Travel Guide”
 This project is an AI-powered Travel Planning application built using **Python**, **Streamlit**, and the **OpenAI API**.
 It generates a **day-by-day travel itinerary** based on user preferences and exports the plan as a **professionally formatted PDF**.
 
+**Problem Statement**
+
+This project solves the problem of manual travel planning by generating personalized, day-by-day travel itineraries based on user inputs such as destination, number of days, interests, and preferences. It automates the creation of travel plans, including recommendations for activities, meals, and accommodations, saving users time and enhancing their travel experience.
+
+**Relation to AI and AI-Assisted Workflows**
+
+The project leverages AI, specifically OpenAI's GPT language model, to generate customized travel plans by interpreting natural language inputs. This showcases AI-assisted workflows where AI augments human tasks—here, by synthesizing relevant and tailored travel information dynamically. It exemplifies how AI can support decision-making and creative planning through natural language understanding and content generation.
+
 ✨ Features
 - Generate a multi-day travel itinerary
 - Each day includes:
