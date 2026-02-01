@@ -16,7 +16,7 @@ It generates a **day-by-day travel itinerary** based on user preferences and exp
 - Downloadable PDF travel plan
 - Simple, user-friendly Streamlit UI
   
-🧠 How the AI Works
+🧠 How the AI/Code Works
 
 - User inputs destination, number of days, interests, and preferences
 - The OpenAI model:
