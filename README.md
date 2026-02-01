@@ -34,19 +34,85 @@ It generates a **day-by-day travel itinerary** based on user preferences and exp
 - OpenAI API
 - ReportLab (PDF generation)
 - dotenv (.env for environment variables)
-- 
-Install dependencies
+
+**How to Run & Use**
+
+**Run**
+**Use Visual Studio : Terminal**
+**Create Virual Environment**
+
+python -m venv venv
+
+**Install dependencies**
+
 pip install -r requirements.txt
 
-Create a .env file
+**Upgrade pip**
 
-Run the app
-streamlit run app.py
+*python -m pip install --upgrade pip*
 
-Output
+**Create a .env** 
+*OPENAI_API_KEY=your_openai_api_key_here*
 
-On-screen travel itinerary
+File in the project root folder and add your OpenAI API key:
 
-Downloadable PDF Travel Plan
+**source venv/bin/activate**
 
-Clean, readable formatting suitable for sharing or printing
+ *.venv\Scripts\activate.ps1*
+
+*streamlit run app.py*
+
+**How to use the the Application**
+
+**Enter Destination**
+•	Example: San Francisco, CA
+
+**Select Number of Days**
+Choose how many days you plan to travel (e.g., 3 days)
+
+**Enter Special Interests** (eg Museums, nature, family-friendly activities)
+
+**Enter Preferences** (e.g Kids friendly, less walking) These act as guardrails for the AI.
+
+**OUTPUT**
+
+**Click “Generate Travel Plan”**
+
+The AI will generate a day-by-day itinerary.
+•  Each day includes:
+  •	 Morning
+  •	Lunch
+  •	Afternoon
+  •	Evening Activity
+  •	Dinner
+
+**Review the Travel Itinerary**
+•	The plan is displayed directly on the screen.
+•	You can scroll and review all days.
+
+**Download the PDF**
+**Click “Download Travel Plan PDF”**
+A professionally formatted PDF is generated with:
+•	Clear day sections
+•	Proper text wrapping
+•	No text cutoff across pages
+
+**What the AI Is Doing** 
+
+Uses OpenAI’s language model to:
+
+•	Understand travel preferences
+
+•	Generate structured daily plans
+
+•	Ensure completeness (morning, lunch, evening, etc.)
+
+•  Automatically fixes missing sections if the AI response is incomplete.
+
+•  Formats output for both screen display and PDF export.
+
+**Resetting the Form**
+
+•	If you want to start over or clear all inputs and outputs, click the Reset Form button.
+
+•	This will clear your previous entries and generated plans so you can enter new travel preferences.
