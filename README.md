@@ -222,3 +222,12 @@ Include estimated costs for accommodations, meals, and activities with budget al
 
 Add interactive maps showing travel routes, landmarks, and distances between stops.
 
+**Collaborating**
+
+**.** Contributions are welcome! Feel free to submit issues
+
+**.** Please contribute by reporting bugs, suggesting features, or improving the code.
+
+**.** Contributions make this project better — join in by sharing ideas or code.
+
+
