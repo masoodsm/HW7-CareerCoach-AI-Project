@@ -1,15 +1,17 @@
 # HW7-CareerCoach-AI-Project
+📌**Project Overview**
 Assignment 6: Build App  “ AI Travel Guide”
 This project is an AI-powered Travel Planning application built using **Python**, **Streamlit**, and the **OpenAI API**.
 It generates a **day-by-day travel itinerary** based on user preferences and exports the plan as a **professionally formatted PDF**.
 
-**Problem Statement**
+❓**Problem Statement**
 
 This project solves the problem of manual travel planning by generating personalized, day-by-day travel itineraries based on user inputs such as destination, number of days, interests, and preferences. It automates the creation of travel plans, including recommendations for activities, meals, and accommodations, saving users time and enhancing their travel experience.
 
-**Relation to AI and AI-Assisted Workflows**
+🤖**Relation to AI and AI-Assisted Workflows**
 
 The project leverages AI, specifically OpenAI's GPT language model, to generate customized travel plans by interpreting natural language inputs. This showcases AI-assisted workflows where AI augments human tasks—here, by synthesizing relevant and tailored travel information dynamically. It exemplifies how AI can support decision-making and creative planning through natural language understanding and content generation.
+
 
 ✨ Features
 - Generate a multi-day travel itinerary
@@ -25,6 +27,10 @@ The project leverages AI, specifically OpenAI's GPT language model, to generate 
 - Simple, user-friendly Streamlit UI
   
 🧠 How the AI/Code Works
+
+**Workflow**
+
+<img width="352" height="647" alt="image" src="https://github.com/user-attachments/assets/837b9b06-11fd-4033-af36-61cefed863bb" />
 
 - User inputs destination, number of days, interests, and preferences
 - The OpenAI model:
@@ -43,10 +49,25 @@ The project leverages AI, specifically OpenAI's GPT language model, to generate 
 - ReportLab (PDF generation)
 - dotenv (.env for environment variables)
 
-**How to Run & Use**
+
+▶️**How to Run & Use**
+
+
+
+**Prerequisites**
+Python 3.6.0 or higher
+pip (Python package installer)
+
+**Project Structure** 
+
+
+    
+**Clone the repository** 
+
 
 **Run**
-**Use Visual Studio : Terminal**
+
+
 **Create Virual Environment**
 
 python -m venv venv
@@ -60,11 +81,14 @@ pip install -r requirements.txt
 *python -m pip install --upgrade pip*
 
 **Create a .env** 
+
+this file stays local and is NOT uploaded to GitHub
+
 *OPENAI_API_KEY=your_openai_api_key_here*
 
 File in the project root folder and add your OpenAI API key:
 
-**source venv/bin/activate**
+**-source venv/bin/activate**-
 
  *.venv\Scripts\activate.ps1*
 
@@ -84,7 +108,11 @@ Choose how many days you plan to travel (e.g., 3 days)
 
 **OUTPUT**
 
-**Click “Generate Travel Plan”**
+🧭**Click “Generate Travel Plan”**
+
+**Open Browser**
+
+***http://localhost:8501***
 
 The AI will generate a day-by-day itinerary.
 •  Each day includes:
@@ -94,20 +122,24 @@ The AI will generate a day-by-day itinerary.
   •	Evening Activity
   •	Dinner
 
-**Review the Travel Itinerary**
+📅**Review the Travel Itinerary**
 •	The plan is displayed directly on the screen.
 •	You can scroll and review all days.
 
-**Download the PDF**
+📄**Download the PDF**
 **Click “Download Travel Plan PDF”**
+
 A professionally formatted PDF is generated with:
+
 •	Clear day sections
+
 •	Proper text wrapping
+
 •	No text cutoff across pages
 
 **What the AI Is Doing** 
 
-Uses OpenAI’s language model to:
+**Uses OpenAI’s language model to:**
 
 •	Understand travel preferences
 
