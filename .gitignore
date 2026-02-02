@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 # Virtual environment folders
+.venv/
 venv/
 env/
 ENV/
@@ -17,5 +18,9 @@ ENV/
 # Streamlit cache folder
 .streamlit/
 
-# ReportLab generated files (if any temp/cache)
+# ReportLab generated files
 *.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
