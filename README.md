@@ -60,7 +60,7 @@ pip (Python package installer)
 
 **Project Structure** 
 
-
+<img width="612" height="220" alt="image" src="https://github.com/user-attachments/assets/16cc8a6a-b722-43e4-b217-2f305b978394" />
     
 **Clone the repository** 
 
