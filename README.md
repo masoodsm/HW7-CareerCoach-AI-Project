@@ -1,6 +1,7 @@
 # HW7-CareerCoach-AI-Project
 
 📌**Project Overview**
+
 Assignment 6: Build App  “ AI Travel Guide”
 This project is an AI-powered Travel Planning application built using **Python**, **Streamlit**, and the **OpenAI API**.
 It generates a **day-by-day travel itinerary** based on user preferences and exports the plan as a **professionally formatted PDF**.
@@ -82,7 +83,7 @@ File in the project root folder and add your OpenAI API key:
 
 *streamlit run main.py*
 
-**How to use the the Application**
+💻**How to use the the Application**
 
 **Enter Destination**
 •	Example: San Francisco, CA
@@ -128,7 +129,7 @@ A professionally formatted PDF is generated with:
 
 •	No text cutoff across pages
 
-**What the AI Is Doing** 
+⚙️**What the AI Is Doing** 
 
 ***Uses OpenAI’s language model to*:**
 
@@ -142,8 +143,82 @@ A professionally formatted PDF is generated with:
 
 •  Formats output for both screen display and PDF export.
 
-**Resetting the Form**
+🔄**Resetting the Form**
 
 •	If you want to start over or clear all inputs and outputs, click the Reset Form button.
 
 •	This will clear your previous entries and generated plans so you can enter new travel preferences.
+
+🛠️**Troubleshooting**
+
+**.** **API Key Issues**
+Ensure your .env file contains a valid OpenAI API key. Check for typos and make sure .env is loaded correctly.
+
+**.** **Module Not Found Errors**
+
+Run *pip install -r requirements.txt to install all dependencies*.
+
+**.** **Streamlit Not Launching**
+
+Verify Streamlit is installed (pip show streamlit). Use streamlit run your_script.py to start the app.
+
+**.** **PDF Not Generating Properly**
+
+Check if ReportLab is installed and your environment has write permissions to save files.
+
+⚡**Performance**
+
+**.** The app responds quickly to user inputs with itinerary generation typically taking a few seconds, depending on API response time.
+
+**.** PDF generation is fast and efficient, producing well-formatted travel plans without noticeable delay.
+
+**.** Streamlit’s lightweight framework ensures smooth interaction on most modern devices.
+
+**.** Performance may vary based on internet speed and OpenAI API latency.
+
+📚**Learning Outcomes**
+
+**.** Integrating AI multiprompt workflows with Python using the OpenAI API
+
+**.** Managing prompt engineering techniques to improve AI output relevance and coherence
+
+**.** Building interactive user interfaces with Streamlit
+
+**.** Handling environment variables securely with .env files
+
+**.** Generating professional PDFs programmatically using ReportLab
+
+🌟** Potential Features** 
+
+**1.** **Personalized Recommendations:**
+
+Integrate user preferences like budget, dietary restrictions, or mobility needs to tailor the itinerary.
+
+**2.** **Real-Time Data Integration:**
+
+Pull live data such as weather forecasts, local events, or COVID-19 restrictions for more accurate plans.
+
+**3.** **Map Visualization:**
+
+Add interactive maps showing travel routes, landmarks, and distances between stops.
+
+**4.** **Multi-Destination Planning:**
+
+Support itineraries covering multiple cities or countries in one trip.
+
+**5.** **Accommodation & Transport Booking:**
+
+Link to booking platforms for hotels, flights, or local transport.
+
+**6.** **Multi-language Support:**
+
+Use AI to generate plans in different languages for international users.
+
+**7.** **Budget Tracking:**
+
+Include estimated costs for accommodations, meals, and activities with budget alerts.
+
+**8.** **Map Visualization:**
+
+Add interactive maps showing travel routes, landmarks, and distances between stops.
+
