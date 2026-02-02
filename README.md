@@ -2,6 +2,9 @@
 
 📌**Project Overview**
 
+<img width="341" height="312" alt="image" src="https://github.com/user-attachments/assets/439b8463-86a6-4fdf-be06-6e5867675502" />
+
+
 ***Assignment 6: Build App  “ AI Travel Guide”***
 
 This project is an AI-powered Travel Planning application built using **Python**, **Streamlit**, and the **OpenAI API**.
@@ -19,11 +22,12 @@ The project leverages AI, specifically OpenAI's GPT language model, to generate 
 ✨ **Features**
 - Generate a multi-day travel itinerary
 - Each day includes:
-  - Morning
+  - Breakfast
+  - Morning Activities
   - Lunch
-  - Afternoon
+  - Afternoon Activities
+  - Evening Activities
   - Dinner
-  - Activities 
 - Family-friendly and non-repetitive activities
 - Clean, structured output
 - Downloadable PDF travel plan
