@@ -2,7 +2,8 @@
 
 📌**Project Overview**
 
-Assignment 6: Build App  “ AI Travel Guide”
+***Assignment 6: Build App  “ AI Travel Guide”***
+
 This project is an AI-powered Travel Planning application built using **Python**, **Streamlit**, and the **OpenAI API**.
 It generates a **day-by-day travel itinerary** based on user preferences and exports the plan as a **professionally formatted PDF**.
 
@@ -10,7 +11,7 @@ It generates a **day-by-day travel itinerary** based on user preferences and exp
 
 This project solves the problem of manual travel planning by generating personalized, day-by-day travel itineraries based on user inputs such as destination, number of days, interests, and preferences. It automates the creation of travel plans, including recommendations for activities, meals, and accommodations, saving users time and enhancing their travel experience.
 
-🤖**Relation to AI and AI-Assisted Workflows**
+🤖 **Relation to AI and AI-Assisted Workflows**
 
 The project leverages AI, specifically OpenAI's GPT language model, to generate customized travel plans by interpreting natural language inputs. This showcases AI-assisted workflows where AI augments human tasks—here, by synthesizing relevant and tailored travel information dynamically. It exemplifies how AI can support decision-making and creative planning through natural language understanding and content generation.
 
@@ -21,8 +22,8 @@ The project leverages AI, specifically OpenAI's GPT language model, to generate 
   - Morning
   - Lunch
   - Afternoon
-  - Evening Activity
   - Dinner
+  - Activities 
 - Family-friendly and non-repetitive activities
 - Clean, structured output
 - Downloadable PDF travel plan
@@ -46,7 +47,9 @@ The project leverages AI, specifically OpenAI's GPT language model, to generate 
 
 
 **Prerequisites**
+
 Python 3.6.0 or higher
+
 pip (Python package installer)
 
 **Project Structure** 
@@ -71,7 +74,7 @@ pip (Python package installer)
 
 **5.** **Create a .env** 
 
-this file stays local and is NOT uploaded to GitHub
+***This file stays local and is NOT uploaded to GitHub***
 
 *OPENAI_API_KEY=your_openai_api_key_here*
 
@@ -81,7 +84,7 @@ File in the project root folder and add your OpenAI API key:
 
  *.venv\Scripts\activate.ps1*
 
-*streamlit run main.py*
+*python -m streamlit run main.py*
 
 💻**How to use the the Application**
 
@@ -188,37 +191,37 @@ Check if ReportLab is installed and your environment has write permissions to sa
 
 **.** Generating professional PDFs programmatically using ReportLab
 
-🌟** Potential Features** 
+🌟**Potential Features** 
 
-**1.** **Personalized Recommendations:**
+**-** **Personalized Recommendations:**
 
 Integrate user preferences like budget, dietary restrictions, or mobility needs to tailor the itinerary.
 
-**2.** **Real-Time Data Integration:**
+**-** **Real-Time Data Integration:**
 
 Pull live data such as weather forecasts, local events, or COVID-19 restrictions for more accurate plans.
 
-**3.** **Map Visualization:**
+**-** **Map Visualization:**
 
 Add interactive maps showing travel routes, landmarks, and distances between stops.
 
-**4.** **Multi-Destination Planning:**
+**-** **Multi-Destination Planning:**
 
 Support itineraries covering multiple cities or countries in one trip.
 
-**5.** **Accommodation & Transport Booking:**
+**-** **Accommodation & Transport Booking:**
 
 Link to booking platforms for hotels, flights, or local transport.
 
-**6.** **Multi-language Support:**
+**-** **Multi-language Support:**
 
 Use AI to generate plans in different languages for international users.
 
-**7.** **Budget Tracking:**
+**-** **Budget Tracking:**
 
 Include estimated costs for accommodations, meals, and activities with budget alerts.
 
-**8.** **Map Visualization:**
+**-** **Map Visualization:**
 
 Add interactive maps showing travel routes, landmarks, and distances between stops.
 
