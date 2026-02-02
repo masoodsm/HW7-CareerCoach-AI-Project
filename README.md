@@ -224,10 +224,17 @@ Add interactive maps showing travel routes, landmarks, and distances between sto
 
 **Collaborating**
 
-**.** Contributions are welcome! Feel free to submit issues
+**-** Contributions are welcome! Feel free to submit issues
 
-**.** Please contribute by reporting bugs, suggesting features, or improving the code.
+**-** Please contribute by reporting bugs, suggesting features, or improving the code.
 
-**.** Contributions make this project better — join in by sharing ideas or code.
+**-** Contributions make this project better — join in by sharing ideas or code.
+
+✍️**Author** 
+
+This project was developed as a learning experience to explore AI integration, create interactive Streamlit apps, automate PDF generation, and begin managing prompt engineering techniques to improve AI output relevance and coherence.
 
 
+🙌**Acknowledgemnt**
+
+I sincerely thank my instructor for their exceptional teaching in the AI Practitioner class. Their expertise and encouragement greatly contributed to my learning and growth.
