@@ -1,4 +1,4 @@
-# HW7-CareerCoach-AI-Project
+# HW7-Travel-Guide-AI-Project
 
 📌**Project Overview**
 
